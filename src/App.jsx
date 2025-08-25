@@ -7,9 +7,6 @@ function App() {
   return (
     <>
       <ChessAnalysisTool/>
-      {/* <h1>this is button</h1> */}
-      {/* <FeedbackButton/> */}
-          {/* <ChessboardFeature /> */}
     </>
   )
 }

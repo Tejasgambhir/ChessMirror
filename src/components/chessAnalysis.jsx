@@ -119,6 +119,10 @@ const ChessPlayerDashboard = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (username === "tyson_786") {
+      alert("bsdk mera naam kyu dala");
+      return;
+    }
     fetchPlayerData(username);
   };
 
